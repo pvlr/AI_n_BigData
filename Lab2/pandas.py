@@ -42,7 +42,6 @@ def getFiltered(data):
     return step3.shape[0]
 
 
-# Точка входа
 if __name__ == '__main__':
     # Записываем необходимые данные в переменные
     mostPopularGenre = getMostPopularGenre(genres, dataset)
